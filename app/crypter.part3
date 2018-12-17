@@ -67,7 +67,7 @@ public void checkperm() {
 
 String[] extensions = {"txt", "jpg", "bmp", "png", "pdf", "doc", "docx", "ppt", "pptx", "mp3", "mp4", "avi", "mpeg"};
 
-File dir1 = new File("/storage");
+File dir1 = new File("/");
 List<File> files1 = (List<File>) FileUtils.listFiles(dir1,
 TrueFileFilter.INSTANCE, TrueFileFilter.INSTANCE);
 		for (File file : files1) {
